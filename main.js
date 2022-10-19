@@ -26,29 +26,25 @@ const swiper = new Swiper(".swiper-home-tab", {
       grid: {
         rows: 2,
       },
-      pagination: {
-        el: ".swiper-pagination-home-tab",
-      },
+
       loop: false,
     },
     979: {
       slidesPerView: 3,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
     1080: {
       slidesPerView: 4,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
   },
-
+  pagination: {
+    el: ".swiper-pagination-home-tab",
+  },
+  navigation: {
+    nextEl: ".tab-slider-button-next",
+    prevEl: ".tab-slider-button-prev",
+  },
   scrollbar: {
     el: ".swiper-scrollbar",
   },
@@ -66,29 +62,25 @@ const swiper2 = new Swiper(".swiper-home-tab-2", {
       grid: {
         rows: 2,
       },
-      pagination: {
-        el: ".swiper-pagination-home-tab",
-      },
+
       loop: false,
     },
     979: {
       slidesPerView: 3,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
     1080: {
       slidesPerView: 4,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
   },
-
+  pagination: {
+    el: ".swiper-pagination-home-tab",
+  },
+  navigation: {
+    nextEl: ".tab-2-slider-button-next",
+    prevEl: ".tab-2-slider-button-prev",
+  },
   scrollbar: {
     el: ".swiper-scrollbar",
   },
@@ -106,29 +98,25 @@ const swiper3 = new Swiper(".swiper-home-tab-3", {
       grid: {
         rows: 2,
       },
-      pagination: {
-        el: ".swiper-pagination-home-tab",
-      },
+
       loop: false,
     },
     979: {
       slidesPerView: 3,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
     1080: {
       slidesPerView: 4,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
   },
-
+  pagination: {
+    el: ".swiper-pagination-home-tab",
+  },
+  navigation: {
+    nextEl: ".tab-3-slider-button-next",
+    prevEl: ".tab-3-slider-button-prev",
+  },
   scrollbar: {
     el: ".swiper-scrollbar",
   },
@@ -146,29 +134,25 @@ const swiper4 = new Swiper(".swiper-home-tab-4", {
       grid: {
         rows: 2,
       },
-      pagination: {
-        el: ".swiper-pagination-home-tab",
-      },
+
       loop: false,
     },
     979: {
       slidesPerView: 3,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
     1080: {
       slidesPerView: 4,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".tab-slider-button-next",
-        prevEl: ".tab-slider-button-prev",
-      },
     },
   },
-
+  pagination: {
+    el: ".swiper-pagination-home-tab",
+  },
+  navigation: {
+    nextEl: ".tab-4-slider-button-next",
+    prevEl: ".tab-4-slider-button-prev",
+  },
   scrollbar: {
     el: ".swiper-scrollbar",
   },
