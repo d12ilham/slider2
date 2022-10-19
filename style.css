@@ -102,7 +102,7 @@ body {
 }
 
 .swiper-home-tab-style .swiper-slide {
-  background-color: aqua;
+  background-color: #eb722788;
   border-radius: 15px;
   height: 300px;
   display: flex;
@@ -221,6 +221,6 @@ body {
     height: 12px;
   }
   .swiper-pagination-home-tab .swiper-pagination-bullet-active {
-    background-color: orange;
+    background-color: #eb7227;
   }
 }
